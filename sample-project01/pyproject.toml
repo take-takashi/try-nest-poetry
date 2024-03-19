@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sample-project01"
+version = "0.1.0"
+description = ""
+authors = ["TAKE Takashi <705098+take-takashi@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

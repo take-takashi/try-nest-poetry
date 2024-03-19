@@ -1,0 +1,14 @@
+{
+    "folders": [
+        {
+            "path": ".",
+            "name": "root"
+        },
+        {
+            "path": "sample-project01"
+        }
+    ],
+    "settings": {
+        "python.terminal.activateEnvironment": false
+    }
+}
