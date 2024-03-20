@@ -6,10 +6,10 @@ WORKSPACE=$PWD
 echo "export PYTHONDONTWRITEBYTECODE=1" >> ~/.bashrc
 
 # セットアップ
-cd ${WORKSPACE}/sample_project01
+cd ${WORKSPACE}/sample-project01
 poetry install --no-root
 poetry shell &
 
-cd ${WORKSPACE}/sample_project02
+cd ${WORKSPACE}/sample-project02
 poetry install --no-root
 poetry shell &
